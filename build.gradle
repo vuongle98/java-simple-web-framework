@@ -1,0 +1,27 @@
+plugins {
+    id 'java'
+}
+
+group = 'org.vuong'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.fasterxml.jackson.core:jackson-core:2.18.1'
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.4.2'
+    implementation 'org.reflections:reflections:0.10.2'
+    implementation 'mysql:mysql-connector-java:8.0.33'
+    implementation 'jakarta.persistence:jakarta.persistence-api:3.2.0'
+
+
+
+    testImplementation platform('org.junit:junit-bom:5.10.0')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+}
+
+test {
+    useJUnitPlatform()
+}
