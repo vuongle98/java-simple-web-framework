@@ -8,7 +8,3 @@ This project involves creating a basic web framework from scratch. It covers:
 
 - Setting up an HTTP server using Java
 - Creating a simple framework to handle web requests and responses
-
-## Contact
-
-For more information, feel free to contact me at [vvuong1998@gmail.com].
